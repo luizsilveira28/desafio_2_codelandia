@@ -1,4 +1,4 @@
 # desafio_2_codelandia
-Projeto Jordan Shows
+Projeto Jordan Shoes
 
 https://luizjordanshoes.netlify.app/
