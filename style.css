@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 378px;
+    background-image: url(/assets/images/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__bg-opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.banner-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+
+.banner-information__text{
+    padding-top: 26px;
+}
+
+
+
+.promotion {
+    height: 60px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+header {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    max-width: 1920px;
+    height: 378px;
+}
+
+.informations-title {
+    font-weight: 600;
+    padding-bottom: 17px;
+    padding-top: 70px;
+}
+
+.informations-text {
+    text-align: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 39px;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.products-box {
+    display: flex;
+    background-color: #EBE9EA;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 302px;
+}
+
+
+footer {
+    height: 60px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 510px) {
+    .products-box {
+        width: 374px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .products-box {
+        width: 310px;
+    }
+}
