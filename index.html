@@ -28,7 +28,8 @@
                 </div>
                 <div class="banner-information">
                     <div class="banner-information__title">
-                        <h1 class="text-white">A melhor loja de Jordan</h1>
+                        <h1 class="typed-string" style="display: none;">A melhor loja de Jordans</h1>
+                        <h1 class="typed2"></h1>
                     </div>
                     <div class="banner-information__text">
                         <span class="text-light">O tênis Jordan é fruto de uma velha e forte parceria<br> entre a Nike e
@@ -76,7 +77,25 @@
         <footer>
             <span>Todos os direitos reservados.</span>
         </footer>
+        
+        <div class="type-wrap">
+            <div class="typed-strings" style="display: none;">
+                <span>A melhor loja de Jordan</span>
+            </div>
+            <span class="typed"></span>
+        </div>
+
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typed2", {
+            stringsElement: '.typed-strings',
+            loop: true,
+            typeSpeed: 80,
+            cursorChar: '',
+        });
+    </script>
 </body>
 
 </html>

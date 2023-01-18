@@ -11,7 +11,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.banner{
+.banner {
     display: flex;
     position: relative;
     width: 100%;
@@ -22,7 +22,7 @@ body {
     background-position: center;
 }
 
-.banner__bg-opacity{
+.banner__bg-opacity {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +33,7 @@ body {
     z-index: 0;
 }
 
-.banner-information{
+.banner-information {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,11 +43,9 @@ body {
     z-index: 1;
 }
 
-.banner-information__text{
-    padding-top: 26px;
+.banner-information__title {
+    margin-bottom: 26px;
 }
-
-
 
 .promotion {
     height: 60px;
@@ -117,6 +115,11 @@ main {
     align-items: center;
     width: 415px;
     height: 302px;
+}
+
+.products-box:hover img {
+    transform: scale(1.1);
+    transition: .8s all ease;
 }
 
 
